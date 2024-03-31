@@ -1,4 +1,4 @@
-package com.greatlearning.employeemanagement.config;
+package com.greatlearning.config;
 
 import java.util.Collection;
 import java.util.List;
@@ -12,8 +12,8 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.greatlearning.employeemanagement.model.Role;
-import com.greatlearning.employeemanagement.model.User;
+import com.greatlearning.model.Role;
+import com.greatlearning.model.User;
 
 public class SecurityDetails implements UserDetails {
 	User user;
