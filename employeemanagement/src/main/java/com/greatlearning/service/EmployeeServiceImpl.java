@@ -1,4 +1,4 @@
-package com.greatlearning.employeemanagement.service;
+package com.greatlearning.service;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Service;
 
-import com.greatlearning.employeemanagement.model.Employee;
-import com.greatlearning.employeemanagement.repository.EmployeeRepository;
+import com.greatlearning.model.Employee;
+import com.greatlearning.repository.EmployeeRepository;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService{
