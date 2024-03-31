@@ -1,4 +1,4 @@
-package com.greatlearning.employeemanagement.controller;
+package com.greatlearning.controller;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.greatlearning.employeemanagement.model.Employee;
-import com.greatlearning.employeemanagement.service.EmployeeService;
+import com.greatlearning.model.Employee;
+import com.greatlearning.service.EmployeeService;
 
 @Controller
 @RequestMapping("/employees")
