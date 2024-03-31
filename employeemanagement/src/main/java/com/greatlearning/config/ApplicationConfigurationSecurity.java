@@ -1,6 +1,6 @@
-package com.greatlearning.employeemanagement.config;
+package com.greatlearning.config;
 
-import com.greatlearning.employeemanagement.service.DomainUserDetailsServiceImpl;
+import com.greatlearning.service.DomainUserDetailsServiceImpl;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
