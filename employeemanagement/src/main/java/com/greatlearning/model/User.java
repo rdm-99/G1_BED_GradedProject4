@@ -1,4 +1,4 @@
-package com.greatlearning.employeemanagement.model;
+package com.greatlearning.model;
 
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
