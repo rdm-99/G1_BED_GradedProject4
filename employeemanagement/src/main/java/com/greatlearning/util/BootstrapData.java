@@ -1,12 +1,12 @@
-package com.greatlearning.employeemanagement.util;
+package com.greatlearning.util;
 
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.event.EventListener;
 
-import com.greatlearning.employeemanagement.model.Role;
-import com.greatlearning.employeemanagement.model.User;
-import com.greatlearning.employeemanagement.repository.UserRepository;
+import com.greatlearning.model.Role;
+import com.greatlearning.model.User;
+import com.greatlearning.repository.UserRepository;
 
 @Configuration
 public class BootstrapData {
