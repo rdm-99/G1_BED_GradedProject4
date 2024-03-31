@@ -1,4 +1,4 @@
-package com.greatlearning.employeemanagement.service;
+package com.greatlearning.service;
 
 import java.util.Optional;
 
@@ -6,9 +6,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
-import com.greatlearning.employeemanagement.model.DomainUserDetails;
-import com.greatlearning.employeemanagement.model.User;
-import com.greatlearning.employeemanagement.repository.UserRepository;
+import com.greatlearning.model.DomainUserDetails;
+import com.greatlearning.model.User;
+import com.greatlearning.repository.UserRepository;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
