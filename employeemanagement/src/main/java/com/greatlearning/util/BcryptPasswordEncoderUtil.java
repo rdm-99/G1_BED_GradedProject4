@@ -1,4 +1,4 @@
-package com.greatlearning.employeemanagement.util;
+package com.greatlearning.util;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
