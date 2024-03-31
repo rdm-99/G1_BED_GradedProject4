@@ -1,8 +1,8 @@
-package com.greatlearning.employeemanagement.service;
+package com.greatlearning.service;
 
 import java.util.List;
 
-import com.greatlearning.employeemanagement.model.Employee;
+import com.greatlearning.model.Employee;
 
 public interface EmployeeService {
 	public List<Employee> getAllEmployees();
