@@ -1,7 +1,7 @@
-package com.greatlearning.employeemanagement;
+package com.greatlearning;
 
 import org.springframework.boot.SpringApplication;
-import com.greatlearning.employeemanagement.controller.EmployeeController;
+import com.greatlearning.controller.EmployeeController;
 import org.springframework.context.annotation.Import;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
