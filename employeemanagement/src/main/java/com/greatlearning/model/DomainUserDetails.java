@@ -1,4 +1,4 @@
-package com.greatlearning.employeemanagement.model;
+package com.greatlearning.model;
 
 
 import static java.util.stream.Collectors.toSet;
